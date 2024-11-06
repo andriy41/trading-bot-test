@@ -1,0 +1,6 @@
+You can now run the frontend with:
+
+bash
+Copy code
+npm run dev
+This will start the Next.js development server at http://localhost:3000. The backend should run at http://localhost:5000 (if you're running Flask). Once both are running, they should interact seamlessly.

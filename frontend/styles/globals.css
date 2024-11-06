@@ -1,0 +1,62 @@
+/* frontend/styles/globals.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+  }
+  
+  .dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .main-view {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #282c34;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .alert-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff9800;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+  }
+  
